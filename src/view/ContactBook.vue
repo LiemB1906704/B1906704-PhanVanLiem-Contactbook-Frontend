@@ -36,6 +36,7 @@
             Chi tiết Liên hệ
             <i class="fas fa-address-card"></i>
           </h4>
+          
           <ContactCard :contact="activeContact" />
           <router-link
             :to="{
